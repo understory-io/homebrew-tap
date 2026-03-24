@@ -1,24 +1,24 @@
 class UnderstoryMcp < Formula
   desc "MCP server for the Understory API"
   homepage "https://github.com/understory-io/mcp"
-  version "0.2.0"
+  version "0.2.3"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/understory-io/mcp/releases/download/v0.2.0/understory-mcp-v0.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "checksums/understory-mcp-v0.2.0-aarch64-apple-darwin.tar.gz.sha256:5a4fa635e1d85f83a057b3133b975f0d6ac4b333008e76289c033cc37bc29f51"
+      url "https://github.com/understory-io/mcp/releases/download/v0.2.3/understory-mcp-v0.2.3-aarch64-apple-darwin.tar.gz"
+      sha256 "checksums/understory-mcp-v0.2.3-aarch64-apple-darwin.tar.gz.sha256:2c05ed6981135cdbf5899ee3db750e8bdd2e474b6094227199bb3ac9ab62e560"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/understory-io/mcp/releases/download/v0.2.0/understory-mcp-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "checksums/understory-mcp-v0.2.0-aarch64-unknown-linux-gnu.tar.gz.sha256:936438554adaa45b184ec385faca26f83b53d588a4161e0b8c645c724d827b37"
+      url "https://github.com/understory-io/mcp/releases/download/v0.2.3/understory-mcp-v0.2.3-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "checksums/understory-mcp-v0.2.3-aarch64-unknown-linux-gnu.tar.gz.sha256:bba86c672f4c407c21e12046c7e7c004418effce45669b96f6abd15c5beff8ea"
     end
     on_intel do
-      url "https://github.com/understory-io/mcp/releases/download/v0.2.0/understory-mcp-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "checksums/understory-mcp-v0.2.0-x86_64-unknown-linux-gnu.tar.gz.sha256:fa8b2244c62be522a35e16a94e5740e6f94c4c0eb852219b762f52d7e0a35847"
+      url "https://github.com/understory-io/mcp/releases/download/v0.2.3/understory-mcp-v0.2.3-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "checksums/understory-mcp-v0.2.3-x86_64-unknown-linux-gnu.tar.gz.sha256:b45942300fc66759c0ec178986f8f5ae369b83de2aa798db1f3ef9dd1324d95b"
     end
   end
 
